@@ -24,7 +24,7 @@ class HomeController extends Controller
         // Data untuk halaman home
         $data = [
             'title' => 'Home',
-            'description' => 'Halaman ini dibuat oleh 2301010051 - I MADE RIKI WIDIASTANA SANJAYA (GENAP)',
+            'description' => 'Halaman ini dibuat oleh 2301010022 - ENDAH KOMARIYAH LESTARI (GENAP)',
             'destinations' => $destinations,
             'total' => $totalDestinations
         ];
