@@ -9,6 +9,7 @@ class HomeController extends Controller
 {
     /**
      * Display the home page
+     * Menggabungkan Model, View, dan Controller (MVC)
      *
      * @return \Illuminate\View\View
      */
@@ -17,13 +18,13 @@ class HomeController extends Controller
         // Mengambil data dari Model
         $destinations = Destination::getAllDestinations();
 
-        // Menghitung total destinasi
+        // Menggunakan function count sesuai ketentuan UTS no.4
         $totalDestinations = Destination::countDestinations();
 
         // Data untuk halaman home
         $data = [
             'title' => 'Home',
-            'description' => 'Halaman ini dibuat oleh 2301010051 - ENDAH KOMARIYAH LESTARI',
+            'description' => 'Halaman ini dibuat oleh 2301010022 - ENDAH KOMARIYAH LESTARI (GENAP)',
             'destinations' => $destinations,
             'total' => $totalDestinations
         ];

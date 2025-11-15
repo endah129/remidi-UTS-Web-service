@@ -18,6 +18,8 @@
             background-repeat: no-repeat;
             padding-top: 60px;
         }
+
+
         body::before {
             content: '';
             position: fixed;
@@ -73,7 +75,7 @@
                 <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
                 <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">About</a>
             </div>
-            <div class="nav-student">2301010051 - ENDAH KOMARIYAH LESTARI</div>
+            <div class="nav-student">2301010022  - ENDAH KOMARIYAH LESTARI</div>
         </div>
     </nav>
 
